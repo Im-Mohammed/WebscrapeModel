@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "core/css/style.css" %}">
+    <link rel="stylesheet" href="{% static "core/css/responsive.css" %}">
+    <link rel="stylesheet" href="{% static "core/css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "core/css/font-awesome.css" %}">
+    <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="hero_area">
+        <div class="hero_bg_box">
+          <div class="bg_img_box">
+            <img src={% static "core/img/hero-bg.png" %} alt="">
+          </div>
+        </div>
+    
+    
+
+    <section class="slider_section ">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-6 ">
+                    <div class="detail-box">
+                      <h1>
+                        WELCOME TO WEB <br>
+                          <div class="row">
+                            <div class="col-md-12 text-center">
+                              <h3 class="animate-charcter"> Scraping</h3>
+                            </div>
+                          </div>
+                      </h1>
+                      <p>
+                        This is the web scraping model, it scrape the data from the website and provide the data in tabular format [xml file].The best practise would be, if you enter the url from bing browser shopping tab. Insert the name and url in below fields respectively.
+                      </p>
+                      <form action="" method="post">
+                        {% csrf_token %}
+                        <table>
+                          {{form}}
+                          <br>
+                          
+                        </table>
+                        <div class='btn'>
+                          <button type="submit" class="btn btn-outline-light">Submit</button>
+                          <button type="reset" class="btn btn-outline-light" id="clear-btn">Clear</button>
+                          
+                       </div>
+                      </form>
+                       
+                    
+                      <div class="btn-box">
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src={% static "core/img/slider-img.png" %} alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+            <script type="text/javascript" src="{% static 'core/js/custom.js' %}"></script>
+            <script type="text/javascript" src="{% static 'core/js/bootstrap.js' %}"></script>
+            <script type="text/javascript" src="{% static 'core/js/style.js' %}"></script>
+            <script type="text/javascript" src="{% static 'core/js/jquery.js' %}"></script>
+
+    </div>
+</body>
+</html>
