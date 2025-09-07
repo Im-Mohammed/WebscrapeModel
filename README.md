@@ -76,6 +76,5 @@ Contributions are welcome! Here's how you can contribute to this project:
 5. Create a new Pull Request.
 
 
-
 https://github.com/Im-Mohammed/WebscrapeModel/assets/128249314/6d75b664-d94b-4468-ba65-bb39e2b35eba
 
