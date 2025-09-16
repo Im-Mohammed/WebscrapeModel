@@ -66,7 +66,6 @@ This project utilizes Django, BeautifulSoup, and Pandas to scrape product inform
      1. If you entered, Amazon. Then it will be downloaded as Amazon.xml
   3. Make sure you have used edge to acquire the URL.Else, It won't work on the other browsers URL.
 ## Contributing
-
 Contributions are welcome! Here's how you can contribute to this project:
 
 1. Fork the repository.
