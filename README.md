@@ -1,7 +1,6 @@
 # Web Scraping with Django
 
 This project demonstrates web scraping using Django and BeautifulSoup. It scrapes product names and prices from a website and displays them on a web page. Additionally, it saves the scraped data to an Excel file.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
